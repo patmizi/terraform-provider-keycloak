@@ -33,6 +33,7 @@ var (
 	userClientRoleMappingRolePrefixField = "usermodel.clientRoleMapping.rolePrefix"
 	userSessionNoteField                 = "user.session.note"
 	aggregateAttributeValuesField        = "aggregate.attrs"
+	singleField                          = "single"
 )
 
 func protocolMapperPath(realmId, clientId, clientScopeId string) string {
